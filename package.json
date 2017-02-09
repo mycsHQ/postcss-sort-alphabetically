@@ -11,7 +11,10 @@
   ],
   "author": "AvraamMavridis <avraammauridis@gmail.com>",
   "license": "MIT",
-  "repository": "AvraamMavridis/postcss-sort-alphabetically",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mycsHQ/postcss-sort-alphabetically.git"
+  },
   "bugs": {
     "url": "https://github.com/AvraamMavridis/postcss-sort-alphabetically/issues"
   },
