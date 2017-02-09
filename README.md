@@ -1,10 +1,10 @@
-# PostCSS Sort Alphabetically [![Build Status][ci-img]][ci]
+# PostCSS Sort Alphabetically [![Build Status](https://travis-ci.org/mycsHQ/postcss-sort-alphabetically.svg?branch=master)](https://travis-ci.org/mycsHQ/postcss-sort-alphabetically) [![semantic-versioning](https://img.shields.io/badge/semantic%20-versioning-green.svg)]() 
 
 [PostCSS] plugin which sorts css properties alphabetically.
 
 [PostCSS]: https://github.com/postcss/postcss
-[ci-img]:  https://travis-ci.org/AvraamMavridis/postcss-sort-alphabetically.svg
-[ci]:      https://travis-ci.org/AvraamMavridis/postcss-sort-alphabetically
+
+
 
 ```css
     /* Input example */
@@ -59,3 +59,9 @@ postcss([ require('postcss-sort-alphabetically') ])
 ```
 
 See [PostCSS] docs for examples for your environment.
+
+## Contributing
+[![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
+
+Feel free to open issues, make suggestions or send PRs.
+This project adheres to the Contributor Covenant [code of conduct](http://contributor-covenant.org/). By participating, you are expected to uphold this code.
