@@ -2,8 +2,6 @@ var postcss = require('postcss');
 
 module.exports = postcss.plugin('postcss-sort-alphabetically', function () {
 
-    // Work with options here
-
     return function (root) {
 
         root.walkRules(rule => {

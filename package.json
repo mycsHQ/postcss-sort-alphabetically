@@ -1,6 +1,6 @@
 {
   "name": "postcss-sort-alphabetically",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "PostCSS plugin which sorts css properties alphabetically",
   "keywords": [
     "postcss",
@@ -22,9 +22,9 @@
     "url": "git+https://github.com/mycsHQ/postcss-sort-alphabetically.git"
   },
   "bugs": {
-    "url": "https://github.com/AvraamMavridis/postcss-sort-alphabetically/issues"
+    "url": "https://github.com/mycsHQ/postcss-sort-alphabetically/issues"
   },
-  "homepage": "https://github.com/AvraamMavridis/postcss-sort-alphabetically",
+  "homepage": "https://github.com/mycsHQ/postcss-sort-alphabetically",
   "dependencies": {
     "postcss": "^5.2.6"
   },
