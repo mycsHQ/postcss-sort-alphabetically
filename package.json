@@ -9,7 +9,13 @@
     "sort",
     "alphabetically"
   ],
-  "author": "AvraamMavridis <avraammauridis@gmail.com>",
+  "author": "Avraam Mavridis <avr.mav@gmail.com>",
+  "contributors": [
+    {
+      "name": "Avraam Mavridis",
+      "email": "avr.mav@gmail.com"
+    }
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",
