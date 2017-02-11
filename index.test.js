@@ -11,7 +11,7 @@ function run(input, output, opts) {
 }
 
 
-it('does something', () => {
+it('sorts rules', () => {
     return run(`a{
         border: 1px solid black;
         color: red;
@@ -49,6 +49,31 @@ it('does something', () => {
     #some {
         align-items: center;
         background-image: url('something');
+    }`
+    , { });
+});
+
+
+it('sorts nested rules', () => {
+    return run( `div{
+        color: red;
+        border: 1px solid black;
+        background-color: red;
+
+        .class {
+            color: red;
+            border: 1px solid black;
+        }
+    }`,
+    `div{
+        background-color: red;
+        border: 1px solid black;
+        color: red;
+
+        .class {
+            border: 1px solid black;
+            color: red;
+        }
     }`
     , { });
 });
